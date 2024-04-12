@@ -1,0 +1,23 @@
+.gameIconsList {
+  width: 40%;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .gameIconsList {
+    width: 35%;
+  }
+}
+.gameIcon_btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.gameIcon_image {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .gameIcon_image {
+    max-width: 200px;
+  }
+}

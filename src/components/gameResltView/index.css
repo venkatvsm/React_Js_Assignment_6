@@ -1,0 +1,45 @@
+.GameResultcontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.GameResult_imageContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 440px;
+}
+.GameResult_itemsContainer {
+  width: 40%;
+}
+@media screen and (min-width: 768px) {
+  .GameResult_itemsContainer {
+    max-width: 440px;
+  }
+}
+.GameResult_text {
+  text-align: center;
+  color: #ffff;
+  font-weight: 600;
+}
+.GameResult_image {
+  width: 100%;
+}
+.GameResult_winOrLossText {
+  color: #ffff;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.GameResult_ResetBtn {
+  width: 200px;
+  height: 42px;
+  background-color: #ffff;
+  color: #223a5f;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
